@@ -1,11 +1,11 @@
 {
-    "name": "beyondcode/fathom-api",
-    "description": "Fathom Analytics API",
+    "name": "capwebsolutions/fathom-api",
+    "description": "Fathom Analytics API testing only",
     "keywords": [
-        "beyondcode",
+        "capwebsolutions",
         "fathom-api"
     ],
-    "homepage": "https://github.com/beyondcode/fathom-api",
+    "homepage": "https://github.com/capwebsolutions/fathom-analytics-api",
     "license": "MIT",
     "authors": [
         {
@@ -28,12 +28,12 @@
     },
     "autoload": {
         "psr-4": {
-            "BeyondCode\\FathomAnalytics\\": "src"
+            "CapWebSolutions\FathomAnalytics\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "BeyondCode\\FathomAnalytics\\Tests\\": "tests"
+            "CapWebSolutions\\FathomAnalytics\\Tests\\": "tests"
         }
     },
     "scripts": {
